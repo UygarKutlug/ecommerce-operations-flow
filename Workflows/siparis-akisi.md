@@ -7,7 +7,7 @@ graph TD
     A[Müşteri Siparişi - Trendyol/Hepsiburada] -->|Entegratör ile Aktarım| B(Nebim ERP - Stok Rezervasyonu)
     B --> C{Stok / Varyant Kontrolü}
     C -->|Hatalı / Çakışma Var| D[Hatalı Siparişler Havuzu / Manuel Müdahale]
-    C -->|Sorunsuz| E[Depo Toplama Listesi - Picking List]
+    C -->|Sorunsuz| E[Depo Toplama Listesi]
     E --> F[El Terminali ile Barkod Doğrulama]
     F --> G[Paketleme ve Kolileme]
     G --> H[Nebim Üzerinden E-Fatura Kesimi]
